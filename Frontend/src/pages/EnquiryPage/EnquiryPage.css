@@ -1,0 +1,15 @@
+.enquiry-container { 
+    width: 100%; 
+    max-width: 450px; 
+    margin: 40px auto; 
+}
+.btn-success { 
+    width: 100%; 
+    padding: 12px; 
+    background: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+}

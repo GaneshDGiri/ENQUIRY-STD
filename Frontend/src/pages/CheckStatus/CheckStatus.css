@@ -1,0 +1,17 @@
+.status-container { 
+    max-width: 600px; 
+    margin: 40px auto; 
+}
+.message-card { 
+    background: #fff; 
+    border: 1px solid #e0e0e0; 
+    padding: 20px; 
+    margin-bottom: 15px; 
+    border-radius: 8px; 
+}
+.reply-card { 
+    background: #d4edda; 
+    padding: 15px; 
+    margin-top: 15px; 
+    border-left: 4px solid #28a745; 
+}

@@ -1,0 +1,49 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #5e0ef3;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+}
+
+/* ✅ This makes ALL inputs (Email, Name, Password) dark and uniform */
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #222;
+  border-radius: 4px;
+  font-family: inherit; /* Keeps your fonts consistent */
+  font-size: 14px;
+  transition: border-color 0.2s;
+  background-color: #333; /* Dark background */
+  color: #fff;            /* White typing text */
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* The Show/Hide button styling */
+.toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #4da3ff; /* Lighter blue so it is visible on the black background */
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
